@@ -1,0 +1,23 @@
+{
+    "name": "pezhvak/laravel-sms",
+    "keywords": ["laravel", "sms", "iran", "mellipayamak"],
+    "description": "Laravel SMS Service Provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pezhvak IMV",
+            "email": "pezhvakimv@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.x|5.1.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pezhvak\\SMS\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
