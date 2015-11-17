@@ -1,5 +1,5 @@
 {
-    "name": "pezhvak/laravel-sms",
+    "name": "immortalvision/laravel-sms",
     "keywords": ["laravel", "sms", "iran", "mellipayamak"],
     "description": "Laravel SMS Service Provider",
     "type": "library",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pezhvak\\SMS\\": "src/"
+            "ImmortalVision\\SMS\\": "src/"
         }
     },
     "minimum-stability": "dev"
