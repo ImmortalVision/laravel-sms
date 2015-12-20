@@ -1,5 +1,5 @@
 <?php
-namespace Pezhvak\SMS;
+namespace ImmortalVision\SMS;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class SmsServiceProvider extends ServiceProvider {
 	 *
 	 * @var bool
 	 */
-	protected $defere = true;
+	protected $deffer = true;
 
 	/**
 	 * Bootstrap the application events.
@@ -32,6 +32,7 @@ class SmsServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
+		$this->app->bind('ImmortalVision\SMS\Contracts\SMS', 'ImmortalVision\SMS\Drivers\MeliPayamak');
 	}
 
 	protected function handleConfig()
@@ -51,7 +52,7 @@ class SmsServiceProvider extends ServiceProvider {
 	public function provides()
 	{
 		return [
-			'SMS',
+			'SMS'
 		];
 	}
 }

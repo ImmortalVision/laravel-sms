@@ -1,6 +1,6 @@
 <?php
 
-namespace Pezhvak\SMS\Facades;
+namespace ImmortalVision\SMS\Facades;
 
 class SMS extends Facade {
 	protected static function getFacadeAccessor()
