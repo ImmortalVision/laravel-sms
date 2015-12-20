@@ -60,6 +60,10 @@ class SMSBase implements SMS {
 
 	public function getCredit()
 	{
+	}
 
+	public function clear()
+	{
+		$this->params = [];
 	}
 }

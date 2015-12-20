@@ -36,4 +36,9 @@ interface SMS {
 	public function send();
 
 	public function getCredit();
+
+	/**
+	 * Clear previous SMS data, prepare for a new send
+	 */
+	public function clear();
 }

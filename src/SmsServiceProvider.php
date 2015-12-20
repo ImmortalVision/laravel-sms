@@ -32,16 +32,13 @@ class SmsServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->bind('ImmortalVision\SMS\Contracts\SMS', 'ImmortalVision\SMS\Drivers\MeliPayamak');
-	}
+		$this->app->bind('ImmortalVision\SMS\Contracts\SMS', function () {
+			return new Drivers\MeliPayamak;
+		});
 
-	protected function handleConfig()
-	{
-		$packageConfig = __DIR__ . '/config/recaptcha.php';
-		$destinationConfig = config_path('recaptcha.php');
-		$this->publishes([
-			$packageConfig => $destinationConfig,
-		]);
+		$this->app->bind('SMS', function () {
+			return new Drivers\MeliPayamak;
+		});
 	}
 
 	/**
