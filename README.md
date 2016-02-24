@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/Pezhvak/Laravel-SMS.svg)](https://gitter.im/Pezhvak/Laravel-SMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/ImmortalVision/Laravel-SMS.svg)](https://gitter.im/Pezhvak/Laravel-SMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Laravel-SMS
 Laravel SMS Service Provider
