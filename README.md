@@ -3,7 +3,7 @@
 # Laravel-SMS
 Laravel SMS Service Provider
 
-
+![Laravel 5.3](https://img.shields.io/badge/Laravel-5.3-f4645f.svg)
 ![Laravel 5.2](https://img.shields.io/badge/Laravel-5.2-f4645f.svg)
 ![Laravel 5.1](https://img.shields.io/badge/Laravel-5.1-f4645f.svg)
 ![Laravel 5.0](https://img.shields.io/badge/Laravel-5.0-f4645f.svg)
